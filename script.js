@@ -38,8 +38,8 @@ const endGame = (isDraw) => {
     winningMessageTextElement.innerText = "Empate!";
   } else {
     winningMessageTextElement.innerText = isCircleTurn
-      ? "O -  FOI O GANHAADOR!"
-      : "X - PARABÉNS, VOCÊ TEM UMA MENTE BRILHANTE!";
+      ? "O - Você Ganhou!"
+      : "X - Parabéns, Você Venceu!";
 
   }
 
